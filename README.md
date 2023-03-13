@@ -14,9 +14,9 @@ Using the git command line client for your OS, type the following commands:
 
 ```bash
  # clone the repo on your current folder, naming the remote as 'template'
- git clone https://github.com/deib-polimi/prova-finale-template-cremona --origin template
+ git clone https://github.com/dragonbanana/ingsoft-2023 --origin template
  # move to the cloned repo
- cd prova-finale-template-cremona/
+ cd ingsoft-2023/
  # add your repository as 'origin' (default) remote
  git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME
  # push the template project to your github repository, setting
