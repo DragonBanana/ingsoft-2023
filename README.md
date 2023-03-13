@@ -29,15 +29,14 @@ Using the git command line client for your OS, type the following commands:
 
 then, you can safely remove the 'template' remote by typing `git remote rm template`.
 
-### Customize your project files and Import them in Eclipse
+### Customize your project files
 
 - Open the `pom.xml` file in a text editor and substitute the two occurrences of **xxx** with your **team_name**.
 - Substitute the occurence of **xxx** with your **team_name** in `Dockerfile`.
 - Open `.github/workflows/docker.yaml` and replace on line 29 `pentabanana/ingsoft-2023:latest` with `{your_dockerhub_repository}/{team_name}:latest`
 - Import it in IntelliJ
-- from the Package Explorer view, rename packages under `src/main/java` and `src/test/java` substituting **xxx** with your assigned **team_name**
-- customize the `README.md`
-- in order to check that everything worked fine, try to build with Maven:
+- Customize the `README.md`
+- In order to check that everything worked fine, try to build with Maven:
     - from IntelliJ:
         - right-click on the project
         - select `Maven->Reload Project`
